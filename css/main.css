@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    clear: both;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    font-family: Source Han Sans CN; 
+    font-size: 20px;
+}
+
+.w1170 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header > a.logo > img {
+    margin: 21px 0 0 60px;
+}
+
+header > ul.nav {
+    margin: 0 60px 0 0;
+    float: right;
+    
+}
+
+header > ul.nav > li{
+    float: left;
+    margin: 0 30px 0 30px;
+    line-height: 100px; 
+}
+
+header > ul.nav > li >a{
+    color: #FFF;
+    font-size:20px;
+    text-decoration: none;
+}
+
+header{
+    height: 100px;
+    background: #192650;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .bd > h1{
+    position: absolute;
+    top: 443px;
+    color:#FFF;
+    font-size: 56px;
+}
+
+.banner .bd > p{
+    position: absolute;
+    top: 537px;
+    color:#FFF;
+    font-size: 56px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size:36px;
+    color: #313131;
+    font-weight: 500;
+    line-height: 1;  
+ 
+}
+
+.tedian .hd {
+    font-size:36px;
+    font-weight:500;
+    color: #313131;
+    line-height: 1;
+    margin: 200px 0 80px 0;
+    
+}
+
+.tedian .bd ul li {
+    width: 23.5%;
+    float: left;
+    margin-right: 2%;
+    box-shadow:0px 3px 15px rgba(0,0,0,0.16);
+}
+
+.tedian .bd ul li:nth-child(4) {
+    margin-right: 0 !important;
+}
+
+.tedian .bd ul li:nth-child( even ) {
+    margin-top: 194px;
+}
+
+.tedian .bd ul li img {
+    width: 100%;
+    display: block;
+}
+
+.tedian .bd ul li .con h1 {
+    font-size: 22px;
+    color: #707070;
+    font-weight: 500;
+    padding: 0 16px;
+    margin-top: 28px;
+    line-height: 1;
+}
+
+.tedian .bd ul li .con p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+    line-height: 24px;
+    padding: 16px;
+    padding-bottom: 40px;
+    width:224px;
+}
+
+.tedian .bd ul li:nth-child(1) p {
+    width:240px;
+}
+
+.tedian .bd ul li:nth-child(4) p {
+    padding-bottom: 16px;
+}
+
+.ser .hd h2 {
+    float: none;
+    margin: 161px 0 27px 0;
+    padding: 0;
+    font-size:36px;
+    font-weight:500;
+    line-height:1;
+}
+
+.ser .hd p {
+    margin-top: 27px;
+    font-size:28px;
+    font-weight:400;
+    line-height:1;
+    color: #4E4E4E;
+}
+
+h3{
+    font-size:28px;
+    color: #313131;
+    font-weight:500;
+    line-height:1;
+}
+
+.left p{
+    width:460px;
+    color: #707070;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.right p{
+    width:460px;
+    color: #707070;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+li:nth-child(1) .right img{
+    margin-top: -303px;
+    margin-left: 499px;
+}
+
+li:nth-child(1) .left h3 {
+    margin-top: 137px;
+}
+
+li:nth-child(1) .left p {
+    margin-top: 42px;
+}
+
+li:nth-child(2) .left img{
+    margin-top: 161px;
+}
+
+li:nth-child(2) .right h3{
+    margin-top: -261.92px;
+    margin-left: 709.5px;
+}
+
+li:nth-child(2) .right p{
+    margin-top: 42px;
+    margin-left: 709.5px;
+}
+
+li:nth-child(3) .left h3 {
+    margin-top: 403px;
+}
+
+li:nth-child(3) .left p {
+    margin-top: 42px;
+}
+
+li:nth-child(3) .right img{
+    margin-top: -297px;
+    margin-left: 585px;
+}
+
+li:nth-child(4) .left img{
+    margin-top: 160px;
+}
+
+li:nth-child(4) .right h3{
+    margin-top: -319.29px;
+    margin-left: 710px;
+}
+
+li:nth-child(4) .right p{
+    margin-top: 42px;
+    margin-left: 710px;
+}
+
+li:nth-child(5) .left h3 {
+    margin-top: 353px;
+}
+
+li:nth-child(5) .left p {
+    width: 465px;
+    margin-top: 42px;
+}
+
+li:nth-child(5) .right img{
+    margin-left: 585px;
+    margin-top: -325px;
+}
+
+
+.apply h2{
+    margin-top: 200px;
+}
+
+.apply h4 {
+    width:72px;
+    font-size:24px;
+    font-weight:500;
+    line-height:1;
+    color:#313131;
+}
+
+.apply p {
+    width: 368px;
+    font-size:16px;
+    font-weight:400;
+    line-height:27px;
+    color:#707070;
+}
+
+.apply .left li {
+    width: 50%;
+    float: left;
+    margin-top: 72px;
+}
+
+.bitcoin h4 {
+    margin-left: 204.78px;
+    margin-top: -109.21px;
+}
+
+.bitcoin p {
+    margin-left: 204.78px;
+    margin-top: 15px;
+}
+
+.ethereum h4 {
+    margin-left: 194.81px;
+    margin-top: -109.21px;
+}
+
+.ethereum p{
+    margin-left: 194.81px;
+    margin-top: 15px;
+}
+
+.our img {
+    margin-left: -375px;
+    margin-top: 149px;
+}
+
+.our .head ul {
+    background-image: url(images/our.png)  no-repeat left top;
+}
+
+.our .head li{
+    float: left;
+    widows: 50px;
+    margin-right: 22.9%;
+}
+
+.our .head li:nth-child(4) {
+    margin-right: 0 !important;
+}
+
+.our .head li h3{
+    font-size:40px;
+    font-weight:500;
+    line-height: 1;
+}
+
+.our .head li p{
+    margin-top: 38px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.contact {
+    margin-top: 116px;
+}
+
+.contact h2 {
+    width:128px;
+    font-size:32px;
+    font-weight:400;
+    line-height: 1;
+    color: #313131;
+}
+
+.contact p {
+    margin-top: 21px;
+    width: 260px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.contact li {
+    margin-top: 32px;
+    font-size:20px;
+    font-weight:400;
+    line-height: 1;
+    color: #707070;
+}
+
+.contact li:nth-child(1) {
+    margin-top: 34px;
+}
+
+.contact li:nth-child(4) {
+    width: 523px;
+}
+
+.contact li img{
+    margin-right: 16px;
+}
+
+.contact .right img {
+    margin-top: -316px;
+    margin-left: 723px;
+}
+
+
+
+
